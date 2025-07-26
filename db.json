@@ -1,33 +1,1027 @@
 {
-  "projects": [
+  "emojis": [
     {
-      "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "id": "e01",
+      "emoji": ":sonriendo:",
+      "name": "Happy",
+      "prompt": "That's great to see! What brought you joy today?"
     },
     {
-      "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
+      "id": "e02",
+      "emoji": ":lloros:",
+      "name": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?"
+    },
+    {
+      "id": "e03",
+      "emoji": ":enfado:",
+      "name": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?"
+    },
+    {
+      "id": "e04",
+      "emoji": ":grito:",
+      "name": "Anxious",
+      "prompt": "Feeling anxious today — care to share what’s causing it?"
+    },
+    {
+      "id": "e05",
+      "emoji": ":durmiendo:",
+      "name": "Tired",
+      "prompt": "You’re feeling tired today. Want to talk about what’s been draining you?"
+    },
+    {
+      "id": "e06",
+      "emoji": ":ojos_de_corazón:",
+      "name": "In love",
+      "prompt": "Feeling in love today — what made your heart feel full?"
+    },
+    {
+      "id": "e07",
+      "emoji": ":desconcertado:",
+      "name": "Confused",
+      "prompt": "Feeling a bit unsure? Want to explore what’s behind it?"
+    },
+    {
+      "id": "e08",
+      "emoji": ":temeroso:",
+      "name": "Fearful",
+      "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?"
+    },
+    {
+      "id": "e09",
+      "emoji": ":gafas_de_sol:",
+      "name": "Confident",
+      "prompt": "You’re feeling confident — what gave you that boost today?"
+    },
+    {
+      "id": "e10",
+      "emoji": ":aliviado:",
+      "name": "Calm",
+      "prompt": "Calmness is valuable. What helped you feel at peace today?"
+    },
+    {
+      "id": "e11",
+      "emoji": ":cabeza_explotando:",
+      "name": "Overwhelmed",
+      "prompt": "Feeling overwhelmed can be tough. Want to unpack what’s going on?"
+    },
+    {
+      "id": "e12",
+      "emoji": ":cara_abrazando:",
+      "name": "Grateful",
+      "prompt": "Gratitude is beautiful. What are you thankful for today?"
+    },
+    {
+      "id": "e13",
+      "emoji": ":triunfo:",
+      "name": "Frustrated",
+      "prompt": "Frustration showed up today. What’s been bothering you?"
+    },
+    {
+      "id": "e14",
+      "emoji": ":pensativo:",
+      "name": "Disappointed",
+      "prompt": "Disappointment can weigh us down. Want to share what led to it?"
+    },
+    {
+      "id": "e15",
+      "emoji": ":sonrisa_con_sudor:",
+      "name": "Nervous",
+      "prompt": "Feeling nervous? Want to talk about what’s making you feel that way?"
+    },
+    {
+      "id": "e16",
+      "emoji": ":cara_pensativa:",
+      "name": "Reflective",
+      "prompt": "You’re feeling reflective today. What’s been on your mind?"
+    },
+    {
+      "id": "e17",
+      "emoji": ":inocente:",
+      "name": "Proud",
+      "prompt": "Pride can be empowering. What accomplishment are you proud of today?"
+    },
+    {
+      "id": "e18",
+      "emoji": ":cara_con_termómetro:",
+      "name": "Unwell",
+      "prompt": "You’re not feeling well — would it help to describe how?"
+    },
+    {
+      "id": "e19",
+      "emoji": ":cara_de_por_favor:",
+      "name": "Vulnerable",
+      "prompt": "Vulnerability takes courage. Want to share what you’re going through?"
+    },
+    {
+      "id": "e20",
+      "emoji": ":ojos_estrella:",
+      "name": "Excited",
+      "prompt": "You’re feeling excited — what’s making today feel special?"
     }
   ],
-  "tasks": [
+
+  "logs": [
     {
       "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
+      "patientId": "patient_1",
+      "date": "2025-07-15",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Felt proud"
     },
     {
       "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "patientId": "patient_2",
+      "date": "2025-07-25",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Felt judged"
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "patientId": "patient_2",
+      "date": "2025-06-28",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Felt judged"
+    },
+    {
+      "id": 4,
+      "patientId": "patient_3",
+      "date": "2025-07-01",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Great talk today"
+    },
+    {
+      "id": 5,
+      "patientId": "patient_7",
+      "date": "2025-07-10",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Upset with someone"
+    },
+    {
+      "id": 6,
+      "patientId": "patient_10",
+      "date": "2025-07-20",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Quiet day"
+    },
+    {
+      "id": 7,
+      "patientId": "patient_4",
+      "date": "2025-07-16",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Had a panic attack"
+    },
+    {
+      "id": 8,
+      "patientId": "patient_3",
+      "date": "2025-07-01",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Lots on my mind"
+    },
+    {
+      "id": 9,
+      "patientId": "patient_8",
+      "date": "2025-06-30",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Slept okay"
+    },
+    {
+      "id": 10,
+      "patientId": "patient_7",
+      "date": "2025-07-21",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Hard to focus"
+    },
+    {
+      "id": 11,
+      "patientId": "patient_3",
+      "date": "2025-07-21",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Felt proud"
+    },
+    {
+      "id": 12,
+      "patientId": "patient_7",
+      "date": "2025-07-12",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Bad headache"
+    },
+    {
+      "id": 13,
+      "patientId": "patient_1",
+      "date": "2025-07-21",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Missed my meds"
+    },
+    {
+      "id": 14,
+      "patientId": "patient_4",
+      "date": "2025-06-30",
+      "emojiId": "e01",
+      "nameId": "Happy",
+      "prompt": "That's great to see! What brought you joy today?",
+      "description": "Felt judged"
+    },
+    {
+      "id": 15,
+      "patientId": "patient_3",
+      "date": "2025-06-29",
+      "emojiId": "e02",
+      "nameId": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?",
+      "description": "Bad headache"
+    },
+    {
+      "id": 16,
+      "patientId": "patient_5",
+      "date": "2025-07-21",
+      "emojiId": "e02",
+      "nameId": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?",
+      "description": "No appetite"
+    },
+    {
+      "id": 17,
+      "patientId": "patient_9",
+      "date": "2025-07-09",
+      "emojiId": "e02",
+      "nameId": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?",
+      "description": "No appetite"
+    },
+    {
+      "id": 18,
+      "patientId": "patient_7",
+      "date": "2025-07-24",
+      "emojiId": "e02",
+      "nameId": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?",
+      "description": "Angry outburst"
+    },
+    {
+      "id": 19,
+      "patientId": "patient_3",
+      "date": "2025-06-30",
+      "emojiId": "e02",
+      "nameId": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?",
+      "description": "Slept okay"
+    },
+    {
+      "id": 20,
+      "patientId": "patient_8",
+      "date": "2025-06-30",
+      "emojiId": "e02",
+      "nameId": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?",
+      "description": "Quiet day"
+    },
+    {
+      "id": 21,
+      "patientId": "patient_10",
+      "date": "2025-07-12",
+      "emojiId": "e02",
+      "nameId": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?",
+      "description": "Feeling strong"
+    },
+    {
+      "id": 22,
+      "patientId": "patient_9",
+      "date": "2025-07-19",
+      "emojiId": "e02",
+      "nameId": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?",
+      "description": "Feeling strong"
+    },
+    {
+      "id": 23,
+      "patientId": "patient_7",
+      "date": "2025-07-20",
+      "emojiId": "e02",
+      "nameId": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?",
+      "description": "Great talk today"
+    },
+    {
+      "id": 24,
+      "patientId": "patient_6",
+      "date": "2025-07-06",
+      "emojiId": "e02",
+      "nameId": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?",
+      "description": "Felt proud"
+    },
+    {
+      "id": 25,
+      "patientId": "patient_5",
+      "date": "2025-07-02",
+      "emojiId": "e02",
+      "nameId": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?",
+      "description": "Felt peaceful"
+    },
+    {
+      "id": 26,
+      "patientId": "patient_1",
+      "date": "2025-07-04",
+      "emojiId": "e02",
+      "nameId": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?",
+      "description": "Challenging day"
+    },
+    {
+      "id": 27,
+      "patientId": "patient_2",
+      "date": "2025-07-10",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Loved a book"
+    },
+    {
+      "id": 28,
+      "patientId": "patient_1",
+      "date": "2025-07-15",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Missed my meds"
+    },
+    {
+      "id": 29,
+      "patientId": "patient_4",
+      "date": "2025-07-02",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Trying my best"
+    },
+    {
+      "id": 30,
+      "patientId": "patient_2",
+      "date": "2025-07-06",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Challenging day"
+    },
+    {
+      "id": 31,
+      "patientId": "patient_7",
+      "date": "2025-07-10",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Challenging day"
+    },
+    {
+      "id": 32,
+      "patientId": "patient_5",
+      "date": "2025-07-01",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Lots on my mind"
+    },
+    {
+      "id": 33,
+      "patientId": "patient_5",
+      "date": "2025-07-24",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Was reflective"
+    },
+    {
+      "id": 34,
+      "patientId": "patient_7",
+      "date": "2025-06-30",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Had a great walk"
+    },
+    {
+      "id": 35,
+      "patientId": "patient_1",
+      "date": "2025-07-05",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Great talk today"
+    },
+    {
+      "id": 36,
+      "patientId": "patient_5",
+      "date": "2025-07-21",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Anxious about work"
+    },
+    {
+      "id": 37,
+      "patientId": "patient_5",
+      "date": "2025-07-07",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Great talk today"
+    },
+    {
+      "id": 38,
+      "patientId": "patient_7",
+      "date": "2025-07-08",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Slept okay"
+    },
+    {
+      "id": 39,
+      "patientId": "patient_5",
+      "date": "2025-07-24",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Meditation helped"
+    },
+    {
+      "id": 40,
+      "patientId": "patient_1",
+      "date": "2025-06-27",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Missed my meds"
+    },
+    {
+      "id": 41,
+      "patientId": "patient_10",
+      "date": "2025-06-27",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Feeling tired"
+    },
+    {
+      "id": 42,
+      "patientId": "patient_4",
+      "date": "2025-07-06",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "Upset with someone"
+    },
+    {
+      "id": 43,
+      "patientId": "patient_9",
+      "date": "2025-07-26",
+      "emojiId": "e04",
+      "nameId": "Anxious",
+      "prompt": "Feeling anxious today — care to share what’s causing it?",
+      "description": "Lots on my mind"
+    },
+    {
+      "id": 44,
+      "patientId": "patient_9",
+      "date": "2025-07-16",
+      "emojiId": "e04",
+      "nameId": "Anxious",
+      "prompt": "Feeling anxious today — care to share what’s causing it?",
+      "description": "Cried last night"
+    },
+    {
+      "id": 45,
+      "patientId": "patient_6",
+      "date": "2025-07-01",
+      "emojiId": "e04",
+      "nameId": "Anxious",
+      "prompt": "Feeling anxious today — care to share what’s causing it?",
+      "description": "Had support"
+    },
+    {
+      "id": 46,
+      "patientId": "patient_9",
+      "date": "2025-07-25",
+      "emojiId": "e04",
+      "nameId": "Anxious",
+      "prompt": "Feeling anxious today — care to share what’s causing it?",
+      "description": "Felt judged"
+    },
+    {
+      "id": 47,
+      "patientId": "patient_9",
+      "date": "2025-07-06",
+      "emojiId": "e04",
+      "nameId": "Anxious",
+      "prompt": "Feeling anxious today — care to share what’s causing it?",
+      "description": "Cried last night"
+    },
+    {
+      "id": 48,
+      "patientId": "patient_6",
+      "date": "2025-07-14",
+      "emojiId": "e04",
+      "nameId": "Anxious",
+      "prompt": "Feeling anxious today — care to share what’s causing it?",
+      "description": "Felt peaceful"
+    },
+    {
+      "id": 49,
+      "patientId": "patient_9",
+      "date": "2025-07-10",
+      "emojiId": "e04",
+      "nameId": "Anxious",
+      "prompt": "Feeling anxious today — care to share what’s causing it?",
+      "description": "Slept okay"
+    },
+    {
+      "id": 50,
+      "patientId": "patient_7",
+      "date": "2025-07-21",
+      "emojiId": "e05",
+      "nameId": "Tired",
+      "prompt": "You’re feeling tired today. Want to talk about what’s been draining you?",
+      "description": "Feeling tired"
+    },
+    {
+      "id": 51,
+      "patientId": "patient_7",
+      "date": "2025-07-05",
+      "emojiId": "e05",
+      "nameId": "Tired",
+      "prompt": "You’re feeling tired today. Want to talk about what’s been draining you?",
+      "description": "Worried a bit"
+    },
+    {
+      "id": 52,
+      "patientId": "patient_7",
+      "date": "2025-07-26",
+      "emojiId": "e05",
+      "nameId": "Tired",
+      "prompt": "You’re feeling tired today. Want to talk about what’s been draining you?",
+      "description": "Meditation helped"
+    },
+    {
+      "id": 53,
+      "patientId": "patient_4",
+      "date": "2025-07-12",
+      "emojiId": "e05",
+      "nameId": "Tired",
+      "prompt": "You’re feeling tired today. Want to talk about what’s been draining you?",
+      "description": "Met a friend"
+    },
+    {
+      "id": 54,
+      "patientId": "patient_3",
+      "date": "2025-07-11",
+      "emojiId": "e05",
+      "nameId": "Tired",
+      "prompt": "You’re feeling tired today. Want to talk about what’s been draining you?",
+      "description": "Meditation helped"
+    },
+    {
+      "id": 55,
+      "patientId": "patient_1",
+      "date": "2025-07-03",
+      "emojiId": "e05",
+      "nameId": "Tired",
+      "prompt": "You’re feeling tired today. Want to talk about what’s been draining you?",
+      "description": "Had a panic attack"
+    },
+    {
+      "id": 56,
+      "patientId": "patient_7",
+      "date": "2025-07-14",
+      "emojiId": "e05",
+      "nameId": "Tired",
+      "prompt": "You’re feeling tired today. Want to talk about what’s been draining you?",
+      "description": "Trying my best"
+    },
+    {
+      "id": 57,
+      "patientId": "patient_10",
+      "date": "2025-07-15",
+      "emojiId": "e06",
+      "nameId": "In love",
+      "prompt": "Feeling in love today — what made your heart feel full?",
+      "description": "Hard to focus"
+    },
+    {
+      "id": 58,
+      "patientId": "patient_2",
+      "date": "2025-07-18",
+      "emojiId": "e06",
+      "nameId": "In love",
+      "prompt": "Feeling in love today — what made your heart feel full?",
+      "description": "Slept okay"
+    },
+    {
+      "id": 59,
+      "patientId": "patient_1",
+      "date": "2025-07-01",
+      "emojiId": "e06",
+      "nameId": "In love",
+      "prompt": "Feeling in love today — what made your heart feel full?",
+      "description": "Missed my meds"
+    },
+    {
+      "id": 60,
+      "patientId": "patient_10",
+      "date": "2025-07-13",
+      "emojiId": "e06",
+      "nameId": "In love",
+      "prompt": "Feeling in love today — what made your heart feel full?",
+      "description": "Quiet day"
+    },
+    {
+      "id": 61,
+      "patientId": "patient_5",
+      "date": "2025-07-03",
+      "emojiId": "e06",
+      "nameId": "In love",
+      "prompt": "Feeling in love today — what made your heart feel full?",
+      "description": "Great talk today"
+    },
+    {
+      "id": 62,
+      "patientId": "patient_6",
+      "date": "2025-07-13",
+      "emojiId": "e06",
+      "nameId": "In love",
+      "prompt": "Feeling in love today — what made your heart feel full?",
+      "description": "Lots on my mind"
+    },
+    {
+      "id": 63,
+      "patientId": "patient_8",
+      "date": "2025-06-29",
+      "emojiId": "e06",
+      "nameId": "In love",
+      "prompt": "Feeling in love today — what made your heart feel full?",
+      "description": "Cried last night"
+    },
+    {
+      "id": 64,
+      "patientId": "patient_6",
+      "date": "2025-07-10",
+      "emojiId": "e06",
+      "nameId": "In love",
+      "prompt": "Feeling in love today — what made your heart feel full?",
+      "description": "Loved a book"
+    },
+    {
+      "id": 65,
+      "patientId": "patient_2",
+      "date": "2025-07-19",
+      "emojiId": "e06",
+      "nameId": "In love",
+      "prompt": "Feeling in love today — what made your heart feel full?",
+      "description": "No appetite"
+    },
+    {
+      "id": 66,
+      "patientId": "patient_7",
+      "date": "2025-07-13",
+      "emojiId": "e06",
+      "nameId": "In love",
+      "prompt": "Feeling in love today — what made your heart feel full?",
+      "description": "Felt proud"
+    },
+    {
+      "id": 67,
+      "patientId": "patient_5",
+      "date": "2025-07-21",
+      "emojiId": "e06",
+      "nameId": "In love",
+      "prompt": "Feeling in love today — what made your heart feel full?",
+      "description": "Was reflective"
+    },
+    {
+      "id": 68,
+      "patientId": "patient_2",
+      "date": "2025-06-28",
+      "emojiId": "e07",
+      "nameId": "Confused",
+      "prompt": "Feeling a bit unsure? Want to explore what’s behind it?",
+      "description": "Quiet day"
+    },
+    {
+      "id": 69,
+      "patientId": "patient_9",
+      "date": "2025-07-18",
+      "emojiId": "e07",
+      "nameId": "Confused",
+      "prompt": "Feeling a bit unsure? Want to explore what’s behind it?",
+      "description": "Hard to focus"
+    },
+    {
+      "id": 70,
+      "patientId": "patient_7",
+      "date": "2025-07-12",
+      "emojiId": "e07",
+      "nameId": "Confused",
+      "prompt": "Feeling a bit unsure? Want to explore what’s behind it?",
+      "description": "Great talk today"
+    },
+    {
+      "id": 71,
+      "patientId": "patient_8",
+      "date": "2025-07-25",
+      "emojiId": "e07",
+      "nameId": "Confused",
+      "prompt": "Feeling a bit unsure? Want to explore what’s behind it?",
+      "description": "Feeling strong"
+    },
+    {
+      "id": 72,
+      "patientId": "patient_7",
+      "date": "2025-07-23",
+      "emojiId": "e07",
+      "nameId": "Confused",
+      "prompt": "Feeling a bit unsure? Want to explore what’s behind it?",
+      "description": "Cried last night"
+    },
+    {
+      "id": 73,
+      "patientId": "patient_9",
+      "date": "2025-06-28",
+      "emojiId": "e07",
+      "nameId": "Confused",
+      "prompt": "Feeling a bit unsure? Want to explore what’s behind it?",
+      "description": "Great talk today"
+    },
+    {
+      "id": 74,
+      "patientId": "patient_8",
+      "date": "2025-07-10",
+      "emojiId": "e07",
+      "nameId": "Confused",
+      "prompt": "Feeling a bit unsure? Want to explore what’s behind it?",
+      "description": "Loved a book"
+    },
+    {
+      "id": 75,
+      "patientId": "patient_7",
+      "date": "2025-06-28",
+      "emojiId": "e07",
+      "nameId": "Confused",
+      "prompt": "Feeling a bit unsure? Want to explore what’s behind it?",
+      "description": "Bad headache"
+    },
+    {
+      "id": 76,
+      "patientId": "patient_1",
+      "date": "2025-07-05",
+      "emojiId": "e07",
+      "nameId": "Confused",
+      "prompt": "Feeling a bit unsure? Want to explore what’s behind it?",
+      "description": "Joyful moment"
+    },
+    {
+      "id": 77,
+      "patientId": "patient_9",
+      "date": "2025-07-08",
+      "emojiId": "e08",
+      "nameId": "Fearful",
+      "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?",
+      "description": "Lots on my mind"
+    },
+    {
+      "id": 78,
+      "patientId": "patient_7",
+      "date": "2025-07-13",
+      "emojiId": "e08",
+      "nameId": "Fearful",
+      "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?",
+      "description": "Quiet day"
+    },
+    {
+      "id": 79,
+      "patientId": "patient_9",
+      "date": "2025-07-23",
+      "emojiId": "e08",
+      "nameId": "Fearful",
+      "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?",
+      "description": "Challenging day"
+    },
+    {
+      "id": 80,
+      "patientId": "patient_1",
+      "date": "2025-07-09",
+      "emojiId": "e08",
+      "nameId": "Fearful",
+      "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?",
+      "description": "Slept okay"
+    },
+    {
+      "id": 81,
+      "patientId": "patient_7",
+      "date": "2025-07-08",
+      "emojiId": "e08",
+      "nameId": "Fearful",
+      "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?",
+      "description": "Slept okay"
+    },
+    {
+      "id": 82,
+      "patientId": "patient_8",
+      "date": "2025-07-02",
+      "emojiId": "e08",
+      "nameId": "Fearful",
+      "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?",
+      "description": "Joyful moment"
+    },
+    {
+      "id": 83,
+      "patientId": "patient_5",
+      "date": "2025-07-25",
+      "emojiId": "e08",
+      "nameId": "Fearful",
+      "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?",
+      "description": "Felt peaceful"
+    },
+    {
+      "id": 84,
+      "patientId": "patient_5",
+      "date": "2025-06-29",
+      "emojiId": "e09",
+      "nameId": "Confident",
+      "prompt": "You’re feeling confident — what gave you that boost today?",
+      "description": "Challenging day"
+    },
+    {
+      "id": 85,
+      "patientId": "patient_1",
+      "date": "2025-07-09",
+      "emojiId": "e09",
+      "nameId": "Confident",
+      "prompt": "You’re feeling confident — what gave you that boost today?",
+      "description": "Great talk today"
+    },
+    {
+      "id": 86,
+      "patientId": "patient_4",
+      "date": "2025-07-05",
+      "emojiId": "e09",
+      "nameId": "Confident",
+      "prompt": "You’re feeling confident — what gave you that boost today?",
+      "description": "Missed my meds"
+    },
+    {
+      "id": 87,
+      "patientId": "patient_4",
+      "date": "2025-07-02",
+      "emojiId": "e09",
+      "nameId": "Confident",
+      "prompt": "You’re feeling confident — what gave you that boost today?",
+      "description": "Cried last night"
+    },
+    {
+      "id": 88,
+      "patientId": "patient_10",
+      "date": "2025-06-30",
+      "emojiId": "e09",
+      "nameId": "Confident",
+      "prompt": "You’re feeling confident — what gave you that boost today?",
+      "description": "Slept okay"
+    },
+    {
+      "id": 89,
+      "patientId": "patient_7",
+      "date": "2025-07-21",
+      "emojiId": "e09",
+      "nameId": "Confident",
+      "prompt": "You’re feeling confident — what gave you that boost today?",
+      "description": "Felt proud"
+    },
+    {
+      "id": 90,
+      "patientId": "patient_5",
+      "date": "2025-07-13",
+      "emojiId": "e09",
+      "nameId": "Confident",
+      "prompt": "You’re feeling confident — what gave you that boost today?",
+      "description": "Quiet day"
+    },
+    {
+      "id": 91,
+      "patientId": "patient_7",
+      "date": "2025-07-17",
+      "emojiId": "e09",
+      "nameId": "Confident",
+      "prompt": "You’re feeling confident — what gave you that boost today?",
+      "description": "Great talk today"
+    },
+    {
+      "id": 92,
+      "patientId": "patient_5",
+      "date": "2025-07-04",
+      "emojiId": "e09",
+      "nameId": "Confident",
+      "prompt": "You’re feeling confident — what gave you that boost today?",
+      "description": "Quiet day"
+    },
+    {
+      "id": 93,
+      "patientId": "patient_5",
+      "date": "2025-07-12",
+      "emojiId": "e09",
+      "nameId": "Confident",
+      "prompt": "You’re feeling confident — what gave you that boost today?",
+      "description": "Great talk today"
+    },
+    {
+      "id": 94,
+      "patientId": "patient_3",
+      "date": "2025-07-18",
+      "emojiId": "e09",
+      "nameId": "Confident",
+      "prompt": "You’re feeling confident — what gave you that boost today?",
+      "description": "Joyful moment"
+    },
+    {
+      "id": 95,
+      "patientId": "patient_10",
+      "date": "2025-07-11",
+      "emojiId": "e10",
+      "nameId": "Calm",
+      "prompt": "Calmness is valuable. What helped you feel at peace today?",
+      "description": "Lots on my mind"
+    },
+    {
+      "id": 96,
+      "patientId": "patient_10",
+      "date": "2025-07-01",
+      "emojiId": "e10",
+      "nameId": "Calm",
+      "prompt": "Calmness is valuable. What helped you feel at peace today?",
+      "description": "Anxious about work"
+    },
+    {
+      "id": 97,
+      "patientId": "patient_10",
+      "date": "2025-07-03",
+      "emojiId": "e10",
+      "nameId": "Calm",
+      "prompt": "Calmness is valuable. What helped you feel at peace today?",
+      "description": "Trying my best"
+    },
+    {
+      "id": 98,
+      "patientId": "patient_5",
+      "date": "2025-07-21",
+      "emojiId": "e10",
+      "nameId": "Calm",
+      "prompt": "Calmness is valuable. What helped you feel at peace today?",
+      "description": "Had a great walk"
+    },
+    {
+      "id": 99,
+      "patientId": "patient_7",
+      "date": "2025-07-07",
+      "emojiId": "e11",
+      "nameId": "Overwhelmed",
+      "prompt": "Feeling overwhelmed can be tough. Want to unpack what’s going on?",
+      "description": "Had a great walk"
+    },
+    {
+      "id": 100,
+      "patientId": "patient_10",
+      "date": "2025-07-02",
+      "emojiId": "e11",
+      "nameId": "Overwhelmed",
+      "prompt": "Feeling overwhelmed can be tough. Want to unpack what’s going on?",
+      "description": "Hard to focus"
     }
   ]
 }
