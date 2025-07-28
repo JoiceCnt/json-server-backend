@@ -1,125 +1,126 @@
 {
   "emojis": [
-    {
-      "id": "e01",
-      "emoji": ":sonriendo:",
-      "name": "Happy",
-      "prompt": "That's great to see! What brought you joy today?"
-    },
-    {
-      "id": "e02",
-      "emoji": ":lloros:",
-      "name": "Sad",
-      "prompt": "Sadness showed up today. Would you like to share why?"
-    },
-    {
-      "id": "e03",
-      "emoji": ":enfado:",
-      "name": "Angry",
-      "prompt": "I noticed you're feeling angry today. What triggered this emotion?"
-    },
-    {
-      "id": "e04",
-      "emoji": ":grito:",
-      "name": "Anxious",
-      "prompt": "Feeling anxious today — care to share what’s causing it?"
-    },
-    {
-      "id": "e05",
-      "emoji": ":durmiendo:",
-      "name": "Tired",
-      "prompt": "You’re feeling tired today. Want to talk about what’s been draining you?"
-    },
-    {
-      "id": "e06",
-      "emoji": ":ojos_de_corazón:",
-      "name": "In love",
-      "prompt": "Feeling in love today — what made your heart feel full?"
-    },
-    {
-      "id": "e07",
-      "emoji": ":desconcertado:",
-      "name": "Confused",
-      "prompt": "Feeling a bit unsure? Want to explore what’s behind it?"
-    },
-    {
-      "id": "e08",
-      "emoji": ":temeroso:",
-      "name": "Fearful",
-      "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?"
-    },
-    {
-      "id": "e09",
-      "emoji": ":gafas_de_sol:",
-      "name": "Confident",
-      "prompt": "You’re feeling confident — what gave you that boost today?"
-    },
-    {
-      "id": "e10",
-      "emoji": ":aliviado:",
-      "name": "Calm",
-      "prompt": "Calmness is valuable. What helped you feel at peace today?"
-    },
-    {
-      "id": "e11",
-      "emoji": ":cabeza_explotando:",
-      "name": "Overwhelmed",
-      "prompt": "Feeling overwhelmed can be tough. Want to unpack what’s going on?"
-    },
-    {
-      "id": "e12",
-      "emoji": ":cara_abrazando:",
-      "name": "Grateful",
-      "prompt": "Gratitude is beautiful. What are you thankful for today?"
-    },
-    {
-      "id": "e13",
-      "emoji": ":triunfo:",
-      "name": "Frustrated",
-      "prompt": "Frustration showed up today. What’s been bothering you?"
-    },
-    {
-      "id": "e14",
-      "emoji": ":pensativo:",
-      "name": "Disappointed",
-      "prompt": "Disappointment can weigh us down. Want to share what led to it?"
-    },
-    {
-      "id": "e15",
-      "emoji": ":sonrisa_con_sudor:",
-      "name": "Nervous",
-      "prompt": "Feeling nervous? Want to talk about what’s making you feel that way?"
-    },
-    {
-      "id": "e16",
-      "emoji": ":cara_pensativa:",
-      "name": "Reflective",
-      "prompt": "You’re feeling reflective today. What’s been on your mind?"
-    },
-    {
-      "id": "e17",
-      "emoji": ":inocente:",
-      "name": "Proud",
-      "prompt": "Pride can be empowering. What accomplishment are you proud of today?"
-    },
-    {
-      "id": "e18",
-      "emoji": ":cara_con_termómetro:",
-      "name": "Unwell",
-      "prompt": "You’re not feeling well — would it help to describe how?"
-    },
-    {
-      "id": "e19",
-      "emoji": ":cara_de_por_favor:",
-      "name": "Vulnerable",
-      "prompt": "Vulnerability takes courage. Want to share what you’re going through?"
-    },
-    {
-      "id": "e20",
-      "emoji": ":ojos_estrella:",
-      "name": "Excited",
-      "prompt": "You’re feeling excited — what’s making today feel special?"
-    }
+  {
+    "id": "e01",
+    "emoji": "😊",
+    "name": "Happy",
+    "prompt": "That's great to see! What brought you joy today?"
+  },
+  {
+    "id": "e02",
+    "emoji": "😢",
+    "name": "Sad",
+    "prompt": "Sadness showed up today. Would you like to share why?"
+  },
+  {
+    "id": "e03",
+    "emoji": "😠",
+    "name": "Angry",
+    "prompt": "I noticed you're feeling angry today. What triggered this emotion?"
+  },
+  {
+    "id": "e04",
+    "emoji": "😱",
+    "name": "Anxious",
+    "prompt": "Feeling anxious today — care to share what’s causing it?"
+  },
+  {
+    "id": "e05",
+    "emoji": "😴",
+    "name": "Tired",
+    "prompt": "You’re feeling tired today. Want to talk about what’s been draining you?"
+  },
+  {
+    "id": "e06",
+    "emoji": "😍",
+    "name": "In love",
+    "prompt": "Feeling in love today — what made your heart feel full?"
+  },
+  {
+    "id": "e07",
+    "emoji": "😕",
+    "name": "Confused",
+    "prompt": "Feeling a bit unsure? Want to explore what’s behind it?"
+  },
+  {
+    "id": "e08",
+    "emoji": "😨",
+    "name": "Fearful",
+    "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?"
+  },
+  {
+    "id": "e09",
+    "emoji": "😎",
+    "name": "Confident",
+    "prompt": "You’re feeling confident — what gave you that boost today?"
+  },
+  {
+    "id": "e10",
+    "emoji": "😌",
+    "name": "Calm",
+    "prompt": "Calmness is valuable. What helped you feel at peace today?"
+  },
+  {
+    "id": "e11",
+    "emoji": "🤯",
+    "name": "Overwhelmed",
+    "prompt": "Feeling overwhelmed can be tough. Want to unpack what’s going on?"
+  },
+  {
+    "id": "e12",
+    "emoji": "🤗",
+    "name": "Grateful",
+    "prompt": "Gratitude is beautiful. What are you thankful for today?"
+  },
+  {
+    "id": "e13",
+    "emoji": "😤",
+    "name": "Frustrated",
+    "prompt": "Frustration showed up today. What’s been bothering you?"
+  },
+  {
+    "id": "e14",
+    "emoji": "😔",
+    "name": "Disappointed",
+    "prompt": "Disappointment can weigh us down. Want to share what led to it?"
+  },
+  {
+    "id": "e15",
+    "emoji": "😅",
+    "name": "Nervous",
+    "prompt": "Feeling nervous? Want to talk about what’s making you feel that way?"
+  },
+  {
+    "id": "e16",
+    "emoji": "🤔",
+    "name": "Reflective",
+    "prompt": "You’re feeling reflective today. What’s been on your mind?"
+  },
+  {
+    "id": "e17",
+    "emoji": "😇",
+    "name": "Proud",
+    "prompt": "Pride can be empowering. What accomplishment are you proud of today?"
+  },
+  {
+    "id": "e18",
+    "emoji": "🤒",
+    "name": "Unwell",
+    "prompt": "You’re not feeling well — would it help to describe how?"
+  },
+  {
+    "id": "e19",
+    "emoji": "🥺",
+    "name": "Vulnerable",
+    "prompt": "Vulnerability takes courage. Want to share what you’re going through?"
+  },
+  {
+    "id": "e20",
+    "emoji": "🤩",
+    "name": "Excited",
+    "prompt": "You’re feeling excited — what’s making today feel special?"
+  }
+
   ],
 
   "logs": [
