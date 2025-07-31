@@ -1,128 +1,126 @@
 {
   "emojis": [
-  {
-    "id": "e01",
-    "emoji": "😊",
-    "name": "Happy",
-    "prompt": "That's great to see! What brought you joy today?"
-  },
-  {
-    "id": "e02",
-    "emoji": "😢",
-    "name": "Sad",
-    "prompt": "Sadness showed up today. Would you like to share why?"
-  },
-  {
-    "id": "e03",
-    "emoji": "😠",
-    "name": "Angry",
-    "prompt": "I noticed you're feeling angry today. What triggered this emotion?"
-  },
-  {
-    "id": "e04",
-    "emoji": "😱",
-    "name": "Anxious",
-    "prompt": "Feeling anxious today — care to share what’s causing it?"
-  },
-  {
-    "id": "e05",
-    "emoji": "😴",
-    "name": "Tired",
-    "prompt": "You’re feeling tired today. Want to talk about what’s been draining you?"
-  },
-  {
-    "id": "e06",
-    "emoji": "😍",
-    "name": "In love",
-    "prompt": "Feeling in love today — what made your heart feel full?"
-  },
-  {
-    "id": "e07",
-    "emoji": "😕",
-    "name": "Confused",
-    "prompt": "Feeling a bit unsure? Want to explore what’s behind it?"
-  },
-  {
-    "id": "e08",
-    "emoji": "😨",
-    "name": "Fearful",
-    "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?"
-  },
-  {
-    "id": "e09",
-    "emoji": "😎",
-    "name": "Confident",
-    "prompt": "You’re feeling confident — what gave you that boost today?"
-  },
-  {
-    "id": "e10",
-    "emoji": "😌",
-    "name": "Calm",
-    "prompt": "Calmness is valuable. What helped you feel at peace today?"
-  },
-  {
-    "id": "e11",
-    "emoji": "🤯",
-    "name": "Overwhelmed",
-    "prompt": "Feeling overwhelmed can be tough. Want to unpack what’s going on?"
-  },
-  {
-    "id": "e12",
-    "emoji": "🤗",
-    "name": "Grateful",
-    "prompt": "Gratitude is beautiful. What are you thankful for today?"
-  },
-  {
-    "id": "e13",
-    "emoji": "😤",
-    "name": "Frustrated",
-    "prompt": "Frustration showed up today. What’s been bothering you?"
-  },
-  {
-    "id": "e14",
-    "emoji": "😔",
-    "name": "Disappointed",
-    "prompt": "Disappointment can weigh us down. Want to share what led to it?"
-  },
-  {
-    "id": "e15",
-    "emoji": "😅",
-    "name": "Nervous",
-    "prompt": "Feeling nervous? Want to talk about what’s making you feel that way?"
-  },
-  {
-    "id": "e16",
-    "emoji": "🤔",
-    "name": "Reflective",
-    "prompt": "You’re feeling reflective today. What’s been on your mind?"
-  },
-  {
-    "id": "e17",
-    "emoji": "😇",
-    "name": "Proud",
-    "prompt": "Pride can be empowering. What accomplishment are you proud of today?"
-  },
-  {
-    "id": "e18",
-    "emoji": "🤒",
-    "name": "Unwell",
-    "prompt": "You’re not feeling well — would it help to describe how?"
-  },
-  {
-    "id": "e19",
-    "emoji": "🥺",
-    "name": "Vulnerable",
-    "prompt": "Vulnerability takes courage. Want to share what you’re going through?"
-  },
-  {
-    "id": "e20",
-    "emoji": "🤩",
-    "name": "Excited",
-    "prompt": "You’re feeling excited — what’s making today feel special?"
-  }
-
+    {
+      "id": "e01",
+      "emoji": "😊",
+      "name": "Happy",
+      "prompt": "That's great to see! What brought you joy today?"
+    },
+    {
+      "id": "e02",
+      "emoji": "😢",
+      "name": "Sad",
+      "prompt": "Sadness showed up today. Would you like to share why?"
+    },
+    {
+      "id": "e03",
+      "emoji": "😠",
+      "name": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?"
+    },
+    {
+      "id": "e04",
+      "emoji": "😱",
+      "name": "Anxious",
+      "prompt": "Feeling anxious today — care to share what’s causing it?"
+    },
+    {
+      "id": "e05",
+      "emoji": "😴",
+      "name": "Tired",
+      "prompt": "You’re feeling tired today. Want to talk about what’s been draining you?"
+    },
+    {
+      "id": "e06",
+      "emoji": "😍",
+      "name": "In love",
+      "prompt": "Feeling in love today — what made your heart feel full?"
+    },
+    {
+      "id": "e07",
+      "emoji": "😕",
+      "name": "Confused",
+      "prompt": "Feeling a bit unsure? Want to explore what’s behind it?"
+    },
+    {
+      "id": "e08",
+      "emoji": "😨",
+      "name": "Fearful",
+      "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?"
+    },
+    {
+      "id": "e09",
+      "emoji": "😎",
+      "name": "Confident",
+      "prompt": "You’re feeling confident — what gave you that boost today?"
+    },
+    {
+      "id": "e10",
+      "emoji": "😌",
+      "name": "Calm",
+      "prompt": "Calmness is valuable. What helped you feel at peace today?"
+    },
+    {
+      "id": "e11",
+      "emoji": "🤯",
+      "name": "Overwhelmed",
+      "prompt": "Feeling overwhelmed can be tough. Want to unpack what’s going on?"
+    },
+    {
+      "id": "e12",
+      "emoji": "🤗",
+      "name": "Grateful",
+      "prompt": "Gratitude is beautiful. What are you thankful for today?"
+    },
+    {
+      "id": "e13",
+      "emoji": "😤",
+      "name": "Frustrated",
+      "prompt": "Frustration showed up today. What’s been bothering you?"
+    },
+    {
+      "id": "e14",
+      "emoji": "😔",
+      "name": "Disappointed",
+      "prompt": "Disappointment can weigh us down. Want to share what led to it?"
+    },
+    {
+      "id": "e15",
+      "emoji": "😅",
+      "name": "Nervous",
+      "prompt": "Feeling nervous? Want to talk about what’s making you feel that way?"
+    },
+    {
+      "id": "e16",
+      "emoji": "🤔",
+      "name": "Reflective",
+      "prompt": "You’re feeling reflective today. What’s been on your mind?"
+    },
+    {
+      "id": "e17",
+      "emoji": "😇",
+      "name": "Proud",
+      "prompt": "Pride can be empowering. What accomplishment are you proud of today?"
+    },
+    {
+      "id": "e18",
+      "emoji": "🤒",
+      "name": "Unwell",
+      "prompt": "You’re not feeling well — would it help to describe how?"
+    },
+    {
+      "id": "e19",
+      "emoji": "🥺",
+      "name": "Vulnerable",
+      "prompt": "Vulnerability takes courage. Want to share what you’re going through?"
+    },
+    {
+      "id": "e20",
+      "emoji": "🤩",
+      "name": "Excited",
+      "prompt": "You’re feeling excited — what’s making today feel special?"
+    }
   ],
-
   "logs": [
     {
       "id": 1,
@@ -1023,6 +1021,174 @@
       "nameId": "Overwhelmed",
       "prompt": "Feeling overwhelmed can be tough. Want to unpack what’s going on?",
       "description": "Hard to focus"
+    },
+    {
+      "patientId": "patient_1",
+      "date": "2025-07-30",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "fsfsfsf",
+      "id": 101
+    },
+    {
+      "patientId": "patient_1",
+      "date": "2025-07-30",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "",
+      "id": 102
+    },
+    {
+      "patientId": "patient_1",
+      "date": "2025-07-30",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "sfafsdfsdfSDSdS",
+      "id": 103
+    },
+    {
+      "patientId": "patient_1",
+      "date": "2025-07-30",
+      "emojiId": "e19",
+      "nameId": "Vulnerable",
+      "prompt": "Vulnerability takes courage. Want to share what you’re going through?",
+      "description": "sdfadfagagadgag",
+      "id": 104
+    },
+    {
+      "patientId": "patient_1",
+      "date": "2025-07-31",
+      "emojiId": "e03",
+      "nameId": "Angry",
+      "prompt": "I noticed you're feeling angry today. What triggered this emotion?",
+      "description": "",
+      "id": 105
+    },
+    {
+      "patientId": "patient_1",
+      "date": "2025-07-31",
+      "emojiId": "e14",
+      "nameId": "Disappointed",
+      "prompt": "Disappointment can weigh us down. Want to share what led to it?",
+      "description": "ds",
+      "id": 106
+    },
+    {
+      "patientId": "patient_1",
+      "date": "2025-07-31",
+      "emojiId": "e08",
+      "nameId": "Fearful",
+      "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?",
+      "description": "",
+      "id": 107
+    },
+    {
+      "patientId": "patient_1",
+      "date": "2025-07-31",
+      "emojiId": "e08",
+      "nameId": "Fearful",
+      "prompt": "Fear can feel heavy. Would you like to share what’s behind it today?",
+      "description": "adadafd",
+      "id": 108
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "date": "2025-08-01",
+      "time": "10:15",
+      "status": "booked",
+      "patientId": "patient_1",
+      "note": "First session"
+    },
+    {
+      "id": "2",
+      "date": "2025-08-01",
+      "time": "11:00",
+      "status": "available",
+      "patientId": null,
+      "note": ""
+    },
+    {
+      "id": "3",
+      "date": "2025-08-02",
+      "time": "09:30",
+      "status": "booked",
+      "patientId": "patient_2",
+      "note": "Session about anxiety"
+    },
+    {
+      "id": "4",
+      "date": "2025-08-03",
+      "time": "14:00",
+      "status": "booked",
+      "patientId": "patient_3",
+      "note": "Follow-up"
+    }
+  ],
+  "patients": [
+    {
+      "id": "patient_1",
+      "name": "Emma Johnson",
+      "email": "emma.johnson@example.com",
+      "birthDate": "1990-05-12"
+    },
+    {
+      "id": "patient_2",
+      "name": "Liam Smith",
+      "email": "liam.smith@example.com",
+      "birthDate": "1985-10-03"
+    },
+    {
+      "id": "patient_3",
+      "name": "Olivia Brown",
+      "email": "olivia.brown@example.com",
+      "birthDate": "1992-07-20"
+    },
+    {
+      "id": "patient_4",
+      "name": "Noah Davis",
+      "email": "noah.davis@example.com",
+      "birthDate": "1988-03-17"
+    },
+    {
+      "id": "patient_5",
+      "name": "Ava Wilson",
+      "email": "ava.wilson@example.com",
+      "birthDate": "1991-09-30"
+    },
+    {
+      "id": "patient_6",
+      "name": "Ethan Taylor",
+      "email": "ethan.taylor@example.com",
+      "birthDate": "1989-12-22"
+    },
+    {
+      "id": "patient_7",
+      "name": "Sophia Miller",
+      "email": "sophia.miller@example.com",
+      "birthDate": "1993-04-08"
+    },
+    {
+      "id": "patient_8",
+      "name": "James Anderson",
+      "email": "james.anderson@example.com",
+      "birthDate": "1984-06-14"
+    },
+    {
+      "id": "patient_9",
+      "name": "Isabella Thomas",
+      "email": "isabella.thomas@example.com",
+      "birthDate": "1986-01-25"
+    },
+    {
+      "id": "patient_10",
+      "name": "Benjamin Jackson",
+      "email": "benjamin.jackson@example.com",
+      "birthDate": "1995-02-18"
     }
   ]
 }
